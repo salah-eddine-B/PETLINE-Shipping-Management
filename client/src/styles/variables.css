@@ -1,0 +1,33 @@
+/* Light Mode */
+:root {
+    --background-color: #F1F5F8; /* New background color */
+    --sidebar-bg: #ffffff;
+    --text-color: #2e2e2e;
+    --primary-accent: #5A6EE0;
+    --secondary-accent: #F85565;
+    --subtle-text: #8A8A8A;
+    --border-color: #E0E0E0;
+    --icon-fill: #0F131A;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --background-color: #0F131A;
+    --sidebar-bg: #1A1F28;
+    --text-color: #C4C6CA;
+    --primary-accent: #5A6EE0;
+    --secondary-accent: #F85565;
+    --subtle-text: #707070;
+    --border-color: #2C3138;
+    --icon-fill: #C4C6CA;
+}
+  /* Shared styles */
+  :root {
+    --font-family: "Inter", sans-serif;
+    --border-radius: 6px;
+    --spacing-sm: 6px;
+    --spacing-md: 12px;
+    --spacing-lg: 18px;
+    --transition-speed: 0.3s ease-in-out;
+  }
+  

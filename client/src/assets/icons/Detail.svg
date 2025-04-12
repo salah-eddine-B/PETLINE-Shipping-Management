@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.2 199.2">
+  <circle cx="99.6" cy="99.6" r="97.1" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/>
+  <g>
+    <circle cx="37.67" cy="99.6" r="11.99" fill="#231f20" stroke-width="0"/>
+    <circle cx="120.24" cy="99.6" r="11.99" fill="#231f20" stroke-width="0"/>
+    <circle cx="161.53" cy="99.6" r="11.99" fill="#231f20" stroke-width="0"/>
+    <circle cx="78.96" cy="99.6" r="11.99" fill="#231f20" stroke-width="0"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+.Layout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* background-color: var(--grey-background-color); */
+    background-color: var(--background-color);
+    /* border-radius: 10px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);  */
+}
+
+.Sidebar { /* Sidebar remains fixed */
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 5px;
+     /* Adjust based on your sidebar width */
+    height: 100vh;
+    background-color: var(--sidebar-bg);
+    z-index: 1000; /* Ensures it stays above content */
+}
+
+.MainContent {
+    flex: 1;
+    margin-left: 210px; /* Push content so it doesn’t go under the sidebar */
+    padding: 10px;
+    overflow-x: hidden;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    /* border: 1px black solid; */
+    
+    transition: margin-left 0.3s ease;
+    /* margin: 5px; */
+    
+}
+
